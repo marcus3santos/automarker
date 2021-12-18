@@ -1,0 +1,5 @@
+The authors and contributors to the utilities in this system include (in alphabetical order):
+
+- [Marcus Santos](https://github.com/marcus3santos) - Developed the current version.
+- [Nabil NY Mansour](https://github.com/NabilNYMansour) - Developed the first version. We are grateful for the support provided by the Career Boost Program and the Department of Computer Science at Ryerson University (soon to be renamed, at the time of this writing) for the development of the first version of this software.
+
