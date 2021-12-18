@@ -1,4 +1,4 @@
-i#+TITLE: Automarker
+#+TITLE: Automarker
 
 AUTOMARKER is an automated marker for lisp program assignments where the students' assignment solutions have been exported from D2L.
 
