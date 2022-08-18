@@ -34,7 +34,7 @@ Clone this repository in your Quicklisp's ~projects~ directory on Portacle:
 
    where:
    - ~submissions~ is a string representing the full path the folder or zip file exported by D2L containing the files submitted by the students.
-   - ~is-zipped~ is a boolean (i.e., it can be the lisp constants ~T~ or ~NIL~) that informs whether the ~submissions~ is a folder or a zip file. Put ~T~ if the ~submissions~ is a zip file and ~NIL~ if it is just a regular folder.
+   - ~is-zipped~ is a boolean (i.e., it can be the lisp constants ~T~ or ~NIL~) that informs whether ~submissions~ is a folder or a zip file. Put ~T~ if  ~submissions~ is a zip file and ~NIL~ if it is just a regular folder.
    - ~grades-export-file~ is a string representing the full path for the D2L grades  exported by D2L (as a csv file) for the particular assignment you want to mark. When generating this file, select the following Export Options on D2L: 
      - Username
      - Points grade
