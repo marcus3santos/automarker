@@ -25,7 +25,7 @@ Clone this repository in your Quicklisp's ~projects~ directory on Portacle:
 *** Preamble
 To mark an assignment, the automarker needs the following files:
 - a folder or a zip file exported by D2L containing the files submitted by the students
-- the D2L exported assignment grades CSV file
+- the D2L exported assignment grades file (a CSV file)
 - the test cases lisp file for the particular assignment you want to mark 
 
 *** Steps
