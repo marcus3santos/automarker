@@ -27,7 +27,7 @@ Clone this repository in your Quicklisp's ~projects~ directory on Portacle:
      CL-USER> (in-package :automarker)
      AUTOMARKER> 
    #+end_src
-2. To invoke the automarker to mark the students' assignment solutions, type the command below on Portacle's REPL:
+2. To invoke the automarker to mark the students' assignment solutions, type the command below on the REPL:
    #+begin_src lisp
      AUTOMARKER> (automark submissions is-zipped grades-export-file test-cases-file results due-datetime weights)
    #+end_src
