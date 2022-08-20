@@ -21,7 +21,7 @@ Clone this repository in your Quicklisp's ~projects~ directory on Portacle:
 
 ** Marking
 
-1. To load the automarker, type the following commands on Portable's REPL:
+1. To load the automarker, type the following commands on the REPL:
    #+begin_src lisp
      CL-USER> (ql:quickload :automarker)
      CL-USER> (in-package :automarker)
