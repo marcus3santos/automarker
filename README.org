@@ -22,22 +22,13 @@ Clone this repository in your Quicklisp's ~projects~ directory on Portacle:
 
 ** Marking
 
-*** Preamble
-To mark an assignment, the automarker needs the following files:
-- a folder or a zip file exported by D2L containing the files submitted by the students
-- the D2L exported assignment grades file (a CSV file)
-- the test cases lisp file for the particular assignment you want to mark 
-
-*** Steps
-0. On D2L, export the grades (as a CSV file) for the particular
-   assignment you want to mark. When generating this file, select the
-   following /Export Options/ on D2L:
-     - Username
-     - Points grade
-     - Last name
-     - First name
-     Below is an example of a CSV file exported by D2L:
-     #+begin_example
+1. On D2L, export the student assignment submissions. For more information, visit [[https://www.torontomu.ca/courses/instructors/tutorials/assignments/assignment-submissions/]]. Make sure you have downloaded *all* submissions. When generating this file, select the following /Export Options/ on D2L:
+  - Username
+  - Points grade
+  - Last name
+  - First name
+  Below is an example of a CSV file exported by D2L:
+  #+begin_example
      Username,Last Name,First Name,Lab 0X Points Grade <Course  Data>,End-of-Line-Indicator 
      #TTiger,Tigertongue,Tim,,#
      #Patrick97,Pearson,Patrick,,#
@@ -47,8 +38,10 @@ To mark an assignment, the automarker needs the following files:
      #Hammermann,Odinson,Thor,,#
      #CastleSword03,Vampireson,Alucard,,#
      #TarkovIsAwesone,Handerson,Timb,,#
-     #+end_example
-1. Launch Portacle by double clicking on the portacle app.
+  #+end_example
+2. On D2L, export the grades file for the assignment you want to mark. For more information, visit [[https://www.torontomu.ca/courses/instructors/tutorials/grades/grades-export-import/]]
+3. Prepare the test cases lisp file for the assignment you want to mark. Your instructor has already shared this file with you.
+4. Launch Portacle by double clicking on the portacle app.
 1. To load the automarker, type the following commands on the REPL:
    #+begin_src lisp
      CL-USER> (ql:quickload :automarker)
