@@ -46,12 +46,11 @@ Clone this repository in your Quicklisp's ~projects~ directory on Portacle:
 1. To load the automarker, type the following commands on the REPL:
    #+begin_src lisp
      CL-USER> (ql:quickload :automarker)
-     CL-USER> (in-package :automarker)
-     AUTOMARKER> 
+     CL-USER> 
    #+end_src
 2. To invoke the automarker to mark the students' assignment solutions, type the command below on the REPL:
    #+begin_src lisp
-     AUTOMARKER> (automark submissions is-zipped grades-export-file test-cases-file results due-datetime weights)
+     CL-USER> (automark submissions is-zipped grades-export-file test-cases-file results due-datetime weights)
    #+end_src
    where:
    - ~submissions~ is a string representing the full path the folder
