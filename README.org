@@ -95,7 +95,7 @@ Clone this repository in your Quicklisp's ~projects~ directory on Portacle:
     number of test cases and multiplying the result by 100.
 
 ** Output
-The log file ~log.txt~, created in the automarker's root folder,
+The log file ~log.txt~, created in =results= folder (see above),
 contains historical information about the evaluation of students'
 assignments and the generation of the respective grades spreadsheet
 file.
