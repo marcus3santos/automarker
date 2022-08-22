@@ -211,8 +211,7 @@ automarker as follows: (assuming you have already installed automarker
 as shown above)
 #+begin_src lisp
     CL-USER> (ql:quickload :automarker)  ; Loading the automarker
-    CL-USER> (in-package :automarker) ; becoming the automarker package
-    AUTOMARKER> (mark-std-solution "/home/John/mysol.lisp" "/home/John/test-cases.lisp") 
+    CL-USER> (mark-std-solution "/home/John/mysol.lisp" "/home/John/test-cases.lisp") 
     ("100.0" OK "No runtime errors"
      (("Pass" T TEST-DEPOSIT (EQUAL (DEPOSIT 20) 130))
       ("Pass" T TEST-DEPOSIT (EQUAL (DEPOSIT 10) 110))
