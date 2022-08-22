@@ -67,7 +67,7 @@ Clone this repository in your Quicklisp's ~projects~ directory on Portacle:
   - ~results~ is a string representing the full path for a folder
     where you want automarker to store the results (the students'
     marks and log files). For example, if you provide the path
-    "/Users/johndoe/A1/" , the automarker will create its
+    ="/Users/johndoe/A1/"= , the automarker will create its
     files/subfolders inside folder ~/Users/johndoe/A1/~.
   - ~due-datetime~ is a list representing the date and time the
     assignment is due, formatted as follows ~'(<MMM> <DD> <HHMM>
