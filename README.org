@@ -95,14 +95,8 @@ Clone this repository in your Quicklisp's ~projects~ directory on Portacle:
     number of test cases and multiplying the result by 100.
 
 ** Output
-The log file ~log.txt~, created in the =results= folder (see above),
-contains historical information about the evaluation of students'
-assignments and the generation of the respective grades spreadsheet
-file.
 
-The automarker generates three other files as the result of marking
-the students' assignments:
-
+The automarker generates the following files in the =results= folder (see above):
 - A csv spreadsheet file called ~grades.csv~ containing the students' assignment marks. This is a D2L-importable grades file and it is created based on the ~grades-export-file~ provided by the user (see item 2 above). Below is an examples of such file::
    #+begin_example
    Username,Last Name,First Name,Lab 0X Points Grade <Course Data>,End-of-Line-Indicator
@@ -135,6 +129,8 @@ the students' assignments:
    (Fail TEST-WITHDRAW (EQUAL (WITHDRAW 10) 90)))
   #+end_example
 - A zipped version of the feedback folder. To be uploaded into D2L.
+- The log file ~log.txt~ containing historical information about the evaluation of students'
+assignments and the generation of the respective grades spreadsheet file.
 
 ** Test cases
 Test cases must follow a specific format in order to be used within
