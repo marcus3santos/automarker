@@ -14,7 +14,7 @@ the students' assignment solutions have been exported from D2L.
 
 Clone this repository in your Quicklisp's ~projects~ directory on Portacle. 
 
-On Windows, follow the instructions on the webpage: [[https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository]]
+On Windows: [[https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository]]
 
 On a Mac:
   #+begin_src shell
