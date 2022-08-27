@@ -146,6 +146,8 @@ function that gives the factorial of a number, and a ~avg~ function
 that gives the average of a list of numbers. Then, the test cases lisp
 file will be something like this:
 #+begin_src lisp
+(in-package :automarker)
+
 (deftest test-fact ()
   (check
     (equal (fact 5) 120)
