@@ -135,8 +135,7 @@ The automarker generates the following files in the =results= folder (see above)
   #+end_example
 - A zipped version of the feedback folder. To be uploaded into D2L.
 
-The log file ~log.txt~ located in the root of the automarker folder contains historical information about the evaluation of students'
-assignments.
+The log file *automarker-history/log.txt* located in the root of the user's home directory contains historical information about the evaluation of students' assignments.
 
 ** Test cases
 Test cases must follow a specific format in order to be used within
