@@ -18,8 +18,8 @@ On Windows: [[https://docs.github.com/en/repositories/creating-and-managing-repo
 
 On a Mac:
   #+begin_src shell
-  $ cd /Applications/portacle/projects/
-  $ git clone https://github.com/marcus3santos/automarker.git  
+   cd /Applications/portacle/projects/
+   git clone https://github.com/marcus3santos/automarker.git  
   #+end_src
 
 * Usage
