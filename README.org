@@ -26,7 +26,7 @@ On a Mac:
 
 ** Marking
 
-1. On D2L, export the student assignment grades *to a CSV file*. When generating this file, select the following /Export Options/ on D2L:
+1. On D2L, export the student assignment grades *to a CSV file*. When generating this file, select the following /Export Options/:
   - Username
   - Points grade
   - Last name
