@@ -58,7 +58,7 @@ On a Mac:
      AUTOMARKER> (automark submissions is-zipped grades-export-file test-cases-file results due-datetime weights)
    #+end_src
    where:
-   - ~submissions~ is a string representing the full path to the root folder containing the students's submissions, e.g., ~/Users/johndoe/Downloads/submissions/~
+   - ~submissions~ is a string representing the full path to the root folder containing the students' submissions, e.g., ~/Users/johndoe/Downloads/submissions/~
    - ~grades-export-file~ is a string representing the full path for
      the D2L assignment grades exported by D2L
   - ~test-cases-file~ is a string representing the full path for the test cases lisp file.
